@@ -21,7 +21,9 @@ The development of this tool involved parsing command-line arguments to tailor t
 
    Example: `gcc -o SystemStats SystemStats.c`
 
-2. **Execution**: Run the compiled program with optional command-line arguments to customize its operation. Example: `./SystemStats --samples=20 --tdelay=2 --system --user --graphics --sequential`.
+2. **Execution**: Run the compiled program with optional command-line arguments to customize its operation. 
+
+   Example: `./SystemStats --samples=20 --tdelay=2 --system --user --graphics --sequential`.
 
    - `--samples=<N>`: Number of samples to collect.
    - `--tdelay=<T>`: Delay in seconds between samples.
